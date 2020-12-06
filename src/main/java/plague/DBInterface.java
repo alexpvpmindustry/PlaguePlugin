@@ -15,6 +15,7 @@ public class DBInterface {
     }
 
     public void connect(String db){
+        System.out.println("this is the beginning of connect db mod");
         // SQLite connection string
         String url = "jdbc:sqlite:" + db;
         try {
